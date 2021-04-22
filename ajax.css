@@ -1,0 +1,72 @@
+body
+{
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#tab
+{
+    height:max-content;
+    width:fit-content;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+th
+{
+    color: whitesmoke;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: solid;
+    border: 1px inset black;
+    text-align: center;
+    background-color:teal;
+}
+tr:nth-child(even)
+{
+    background-color: skyblue;
+    text-align: justify;
+}
+tr:nth-child(odd)
+{
+    background-color: rgb(218, 244, 255);
+    text-align: justify;
+}
+table
+{
+    background:grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    table-layout: auto;
+    border: 1px inset rgb(140, 150, 179);
+    border-radius: 5px;
+    border-width: 5px;
+    table-layout: fixed;
+    font-family: 'IBM Plex Sans', serif;
+}
+.topnav
+{
+    overflow: hidden;
+    background-color: teal;
+}
+.topnav a
+{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 21px;
+}
+topnav a:hover
+{
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active
+{
+    background-color:rgb(255, 196, 206);
+    color: teal;
+}

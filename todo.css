@@ -1,0 +1,75 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', serif;
+}
+body
+{
+    background-image: url("5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+#myform
+{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    padding: 30px 40px;
+    position: relative;
+}
+h1
+{
+    text-align: center;
+    color: crimson;
+    margin: 0 0 20px;
+}
+
+a
+{
+    color: red;
+}
+div
+{
+    height: 70;
+    width: 140;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    text-align: center;
+    background-color: rosybrown;
+}
+input
+{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+}
+input:focus
+{
+    outline: 0;
+    border-color: #777;
+}
+button
+{
+    cursor: pointer;
+    background: #3498db;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+}

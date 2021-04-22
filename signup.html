@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sugn Up</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="signup.css">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Serif:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+    <body class = "bg">
+        <divc class="container">
+            <form action="index.html" class="form" id="form">
+                <h2>
+                    Register here
+                </h2>
+                <div class = "form-control">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter username" required/>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter E-mail" required/>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="phone">Phone number</label>
+                    <input type="text" id="phone" placeholder="Enter 10 digit Mobile number" required/>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control" class="pass-control">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter Password" required/>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="password2">Confirm Password</label>
+                    <input type="password" id="password2" placeholder="Enter Password Again" required/>
+                    <small>Error message</small>
+                  </div>
+                  <button type="submit">
+                    <a href="index.html">
+                        Submit
+                    </a>  
+                    </button>
+            </form>
+        </div>
+        <script src="signup.js"></script>
+        <script src = "https://cdnjs.cloudfare.com/ajax/libs/zxcvbn/4.2.0/zxcvbn.js"></script>
+    </body>
+</html>
+
+                
